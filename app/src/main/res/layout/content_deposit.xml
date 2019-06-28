@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/darkGrey"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="left"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="Bank Detail"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/daftarbank"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_corners_button"
+                android:text="Show"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <customfonts.EditTextSFProDisplayMedium
+                android:id="@+id/nominalTransfer"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_corners_edittext_dark"
+                android:hint="Nominal Transfer"
+                android:inputType="textEmailAddress"
+                android:textSize="30dp"
+                android:maxLines="1"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:nextFocusDown="@+id/signUn_password"
+                android:textColor="@color/black"
+                android:textColorHint="@color/darkGrey"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinBank"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignTop="@+id/butUploadBukti"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="70dp"
+                android:layout_toLeftOf="@+id/butUploadBukti"
+                android:layout_toStartOf="@+id/butUploadBukti"
+                android:background="@drawable/border_text"
+                android:entries="@array/list_bank"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/signUn_password"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textColorHint="@color/darkGrey"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/centang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/text_sukses"
+                android:textColor="@color/textColorGreen"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/butUploadBukti"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_corners_button"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+
+        <customfonts.EditTextSFProDisplayRegular
+            android:id="@+id/pemilikRekening"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:paddingRight="10dp"
+            android:hint="Account Name"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rounded_corners_edittext_dark"/>
+        <customfonts.EditTextSFProDisplayRegular
+            android:id="@+id/nomorRekening"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:paddingRight="10dp"
+            android:hint="Account Number"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rounded_corners_edittext_dark"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+
+
+            </RelativeLayout>
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:id="@+id/butTopup"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="TOPUP"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

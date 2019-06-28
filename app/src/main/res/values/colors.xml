@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">@color/splash_bg_color</color>
+    <color name="colorAccent">@color/directionLine</color>
+    <color name="colorYellow">#1c7ff9</color>
+
+    <color name="view_line">#fcd5d5d5</color>
+    <color name="transpernet">#00000000</color>
+
+
+    <color name="splash_bg_color">#1c7ff9</color>
+
+    <color name="colorPrimarySoft">#1c7ff9</color>
+    <color name="colorPrimaryBuilding">#1c7ff9</color>
+
+    <color name="directionLine">#1c7ff9</color>
+
+    <color name="greytext">#e1e2e2</color>
+
+    <color name="blueSoft">#e1e2e2</color>
+    <color name="grey">#999ea0</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="brown">#b87e00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="lightGrey">#f4f4f4</color>
+
+    <color name="yellow">#fad900</color>
+    <color name="cream">#edd380</color>
+    <color name="orange">#ff2a22</color>
+    <color name="darkOrange">#3092a9</color>
+    <color name="darkGrey">#666666</color>
+    <color name="blue">#1c7ff9</color>
+    <color name="blueTransparent">#60127399</color>
+    <color name="blackTransparent">#60000000</color>
+    <color name="klikButton">#318ea4</color>
+    <color name="darkBrown">#663300</color>
+    <color name="darkerBrown">#462300</color>
+    <color name="red">#a60000</color>
+    <color name="yellowCream">#ffe100</color>
+    <color name="textGrey">#9b9a9a</color>
+    <color name="bgChat">#3a5068</color>
+    <color name="tintGrey">#cfcfcf</color>
+    <color name="tintDarkGrey">#646464</color>
+    <color name="textColorGreen">#27c669</color>
+    <color name="textColorRed">#c4242c</color>
+
+    <color name="colorGrey">#a5a5a5</color>
+    <color name="color_grey_toWhite">#eeeeee</color>
+
+</resources>

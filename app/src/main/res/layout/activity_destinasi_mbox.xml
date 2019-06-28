@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white"
+    tools:context="net.balqisstudio.goeksdriver.activity.DestinasiMboxActivity">
+    <customfonts.TextViewSFProDisplayMedium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namaBarang"
+        android:text="Nama Barang"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviDestinasi">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

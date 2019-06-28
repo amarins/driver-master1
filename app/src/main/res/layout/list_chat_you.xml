@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_weight="10">
+        <ImageView
+            android:id="@+id/imageUser"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:minHeight="50dp"
+        android:background="@drawable/rounded_corners_edittext_dark"
+        android:backgroundTint="@color/blue"
+        android:orientation="horizontal">
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:id="@+id/isiChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:minHeight="40dp"
+            android:padding="2dp"
+            android:text="Lorem ipsum dolo sir amet amet..\"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/isiChat"
+            android:layout_marginTop="5dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:id="@+id/timeChat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="21:10"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

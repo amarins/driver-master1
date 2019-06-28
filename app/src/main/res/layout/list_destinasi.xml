@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_barang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <customfonts.TextViewSFProDisplayMedium
+        android:id="@+id/urutanPenerima"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Penerima 1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:background="@drawable/rounded_corners_edittext_dark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <customfonts.TextViewSFProDisplayMedium
+        android:id="@+id/namaPenerima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:text="Gagah Istaid Billah"
+        android:textColor="@color/black"/>
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/teleponPenerima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nomor"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+      <Button
+         android:id="@+id/callPenerima"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_gravity="center"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/ic_phone"
+          android:layout_marginRight="10dp"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:background="@drawable/rounded_corners_edittext_dark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+    <customfonts.TextViewSFProDisplayMedium
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="Instruksi"
+        android:layout_marginLeft="15dp"/>
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/instruksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="18dp"
+        android:textAllCaps="true"
+        android:layout_marginLeft="15dp"
+        android:text="Barang jangan sampai pecah!"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:background="@drawable/rounded_corners_edittext_dark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_loc_orange" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jalan Batu Gana"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:id="@+id/alamatPenerima"/>
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dekat Masjid"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:id="@+id/detailAlamatPenerima"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/blue"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

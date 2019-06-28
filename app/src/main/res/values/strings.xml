@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">GOEKS DRIVER</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_navigate">Navigation</string>
+    <string name="info_klik">Click the button below if you agree to take this order</string>
+
+    <string name="notif_activity">New Order</string>
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="lorem_ipsum">This is an example of feedback given by a customer to the driver after order ..</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sir amet amet Lorem ipsum dolor sir amet amet
+        Lorem ipsum dolor sir amet amet Lorem ipsum dolor sir amet amet Lorem ipsum dolor sir amet
+        amet Lorem ipsum dolor sir amet amet Lorem ipsum dolor sir amet amet Lorem ipsum dolor sir  </string>
+
+    <string name="vehicle_detail">Vehicle Detail</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_signin">SignIn</string>
+    <string name="rateuser">Rate User</string>
+    <string name="text_send">Send</string>
+    <string name="text_save">Save</string>
+    <string name="text_rekening">Account Number</string>
+    <string name="text_sukses">Success</string>
+    <string name="text_topup">Top Up</string>
+    <string name="text_infopesanan">Order Information</string>
+    <string name="name_customer">Customer Name</string>
+    <string name="text_cash">Cash</string>
+    <string name="text_credit">(+Credit)</string>
+    <string name="text_logout">LogOut</string>
+    <string name="detail_transport">Transportation Detail</string>
+    <string name="change_account">Edit Account Detail</string>
+    <string name="change_password">Edit Password</string>
+    <string name="change_email">Edit Email</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="currency">$</string>
+
+
+    <string-array name="list_bank">
+        <item>Bank BCA</item>
+        <item>Bank BRI</item>
+        <item>Bank BNI</item>
+        <item>Bank Lainnya</item>
+    </string-array>
+    <string-array name="list_maximum_belanja">
+        <item>100.000</item>
+        <item>200.000</item>
+        <item>300.000</item>
+        <item>500.000</item>
+        <item>1.000.000</item>
+        <item>Tidak dibatasi</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

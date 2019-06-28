@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundchat">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reviChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        app:stackFromEnd="true"></androidx.recyclerview.widget.RecyclerView>
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+    <!--<include-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--layout="@layout/list_chat_me"/>-->
+
+    <!--<include android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--layout="@layout/list_chat_you"/>-->
+
+    <!--<include-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--layout="@layout/list_chat_me"/>-->
+    <!--</LinearLayout>-->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_corners_edittext_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <customfonts.EditTextSFProDisplayRegular
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/rounded_corners_edittext_dark"
+            android:hint="Type your text here!"
+            android:textSize="16dp" />
+
+
+
+        <ImageView
+            android:id="@+id/butSend"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:tint="@color/colorPrimary"
+            android:src="@drawable/ic_select_chat_send" />
+    </LinearLayout>
+</RelativeLayout>
+

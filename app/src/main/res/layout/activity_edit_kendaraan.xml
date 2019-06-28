@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_konfirmasi_barang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:focusableInTouchMode="true"
+    tools:context="net.balqisstudio.goeksdriver.activity.EditSettingActivity">
+
+    <customfonts.TextViewSFProDisplayMedium
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/judulEdit"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:text="@string/vehicle_detail"/>
+    <customfonts.EditTextSFProDisplayRegular
+        android:id="@+id/kolomMerek"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:hint="Brand (ex: Yamaha)"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rounded_corners_edittext_dark"/>
+    <customfonts.EditTextSFProDisplayRegular
+        android:id="@+id/kolomTipe"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:hint="Vehicle Type (ex: Vixion)"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rounded_corners_edittext_dark"/>
+    <customfonts.EditTextSFProDisplayRegular
+        android:id="@+id/kolomNopol"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:hint="Number (ex: BG 1234 OY)"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rounded_corners_edittext_dark"/>
+    <customfonts.EditTextSFProDisplayRegular
+        android:id="@+id/kolomWarna"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:hint="Colors (ex: Black)"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rounded_corners_edittext_dark"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+        <customfonts.TextViewSFProDisplayMedium
+            android:id="@+id/butSubmitU"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/text_submit"
+            android:background="@drawable/ic_select_topup"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

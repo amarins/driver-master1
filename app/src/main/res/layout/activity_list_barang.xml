@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_barang"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <customfonts.TextViewSFProDisplayMedium
+        android:id="@+id/namaToko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Toko Sudi Mampir"
+        android:layout_marginBottom="5dp"/>
+
+    <customfonts.TextViewSFProDisplayMedium
+        android:id="@+id/estimasiBiaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/orange"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Estimasi Biaya : Rp 100.000,00"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reviListBarang"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
